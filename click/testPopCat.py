@@ -9,4 +9,5 @@ target.set_window_size(100,600)
 while True:
     # id of the element cat to click
     target.find_element("id", "app").click()
+    # time click for one time by second
     time.sleep(0.5)
